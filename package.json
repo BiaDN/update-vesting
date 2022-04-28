@@ -1,0 +1,9 @@
+{
+  "name": "vesting_token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cargo build-bpf --manifest-path=./Cargo.toml"
+  }
+}
