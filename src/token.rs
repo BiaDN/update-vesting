@@ -9,8 +9,6 @@ use solana_program::{
     pubkey::Pubkey,
     system_instruction, system_program, sysvar,
     sysvar::{clock::Clock, rent::Rent, Sysvar},
-    // sysvar::{clock::Clock, rent::Rent, Sysvar},
-
 };
 use spl_associated_token_account::{instruction:: create_associated_token_account, get_associated_token_address};
 
